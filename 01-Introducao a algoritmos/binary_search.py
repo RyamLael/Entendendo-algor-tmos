@@ -7,7 +7,7 @@ def binary_search(list: list, item) -> int:
     start = 0
     end = len(list)
 
-    while (start <= end):
+    while start <= end:
 
         mid = (start + end)//2
         attempt = list[mid]
